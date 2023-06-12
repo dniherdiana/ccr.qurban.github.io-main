@@ -1,0 +1,198 @@
+/* body, html{
+  background-image: url(/test/1/assets/img/c1.webp);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Fasthand&family=M+PLUS+1p&display=swap');
+
+html {
+  background: url(../img/qurbanBG.webp) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  scroll-padding-top: 110px;
+}
+
+body {
+  font-family: 'Comic Neue', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  justify-content: space-around;
+  align-items: center;
+  overflow: auto;
+  border-bottom: 1px groove rgb(78, 216, 232);
+  box-shadow: 0 4px 8px 0 rgba(30, 30, 29, 0.529);
+}
+
+main {
+  overflow: auto;
+  padding: 20px;
+}
+
+#coffe-logo {
+  float: left;
+  padding-left: 50px;
+  text-align: center;
+  align-items: center;
+}
+
+#nav-display {
+  float: right;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  text-align: center;
+  align-items: center;
+}
+
+h1,
+h2,
+nav a,
+p {
+  color: rgb(39, 38, 37);
+}
+
+/* h3,
+h4 {
+  color: rgb(253, 243, 243);
+} */
+
+h1 {
+  text-shadow: 0 1px 4px rgba(27, 29, 29, 0.573);
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav li {
+  display: inline;
+  list-style-type: none;
+  padding: 10px;
+}
+
+nav a:hover {
+  font-weight: bold;
+  border-bottom: 3px solid rgb(6, 225, 245);
+}
+
+header {
+  display: inline;
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.card {
+  padding: 2rem;
+  margin-top: 2rem;
+  border-radius: 10px;
+  background-color: rgba(254, 251, 251, 0.603);
+  box-shadow: 0 4px 8px 0 rgba(16, 16, 16, 0.74);
+}
+
+.card1 {
+  padding: 30px;
+  margin-top: 40px;
+  border: 2px solid rgba(19, 196, 249, 0.529);
+  border-radius: 10px;
+  background-color: rgba(254, 251, 251, 0.603);
+  box-shadow: 0 4px 8px 0 rgba(16, 16, 16, 0.74);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#content {
+  float: left;
+  width: 75%;
+}
+
+h2 {
+  text-align: center;
+}
+
+aside {
+  float: right;
+  width: 25%;
+  padding-left: 30px;
+}
+
+#card-center {
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* #loc {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+} */
+
+#lokasi {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  padding: 1px;
+  width: auto;
+}
+
+#lokasi h2 {
+  font-size: 1.3rem;
+}
+
+#lokasi p {
+  font-size: 1.5rem;
+}
+
+#kontak {
+  color: rgb(14, 14, 14);
+  background-color: rgba(246, 246, 239, 0.836);
+  text-align: center;
+  width: fit-content;
+}
+
+#kontak h2 {
+  font-size: 2rem;
+}
+
+#kontak p {
+  font-size: 1.2rem;
+}
+
+/* #opening {
+  text-align: center;
+  width: fit-content;
+} */
+
+@media screen and (max-width: 600px) {
+
+  #content,
+  aside {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* .media-icon {
+  text-decoration: none;
+  color: rgb(246, 239, 231);
+}
+
+.media-icon:hover {
+  text-shadow: 0 1px 4px rgb(215, 225, 26);
+  font-weight: bold;
+} */
