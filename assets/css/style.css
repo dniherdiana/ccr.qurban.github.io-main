@@ -48,10 +48,12 @@ main {
   padding-top: 1rem;
   text-align: center;
   align-items: center;
+
 }
 
-h1,
+
 h2,
+h1,
 nav a,
 p {
   color: rgb(39, 38, 37);
@@ -184,7 +186,7 @@ aside {
   }
 
   html {
-    background-size: contain;
+    background-size: cover;
   }
 
 }
