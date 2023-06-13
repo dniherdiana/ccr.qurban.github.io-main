@@ -182,6 +182,7 @@ aside {
 }
 
 @media screen and (max-width: 600px) {
+
   #content,
   aside {
     width: 100%;
@@ -193,13 +194,3 @@ aside {
   }
 
 }
-
-/* .media-icon {
-  text-decoration: none;
-  color: rgb(246, 239, 231);
-}
-
-.media-icon:hover {
-  text-shadow: 0 1px 4px rgb(215, 225, 26);
-  font-weight: bold;
-} */
