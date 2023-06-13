@@ -13,12 +13,12 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  scroll-padding-top: 110px;
+  scroll-padding-top: 13rem;
 }
 
 body {
   font-family: 'Comic Neue', sans-serif;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   padding: 0;
   margin: 0;
 }
@@ -27,8 +27,9 @@ body {
   justify-content: space-around;
   align-items: center;
   overflow: auto;
-  border-bottom: 1px groove rgb(78, 216, 232);
+  border-bottom: 2px groove rgb(78, 216, 232);
   box-shadow: 0 4px 8px 0 rgba(30, 30, 29, 0.529);
+  /* height: 14rem; */
 }
 
 main {
@@ -36,11 +37,10 @@ main {
   padding: 20px;
 }
 
-#coffe-logo {
-  //float: left;
-  //padding-left: 50px;
+#qurban-header {
   text-align: center;
   align-items: center;
+  height: 1.5rem;
 }
 
 #nav-display {
@@ -152,7 +152,7 @@ aside {
 }
 
 #lokasi h2 {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
 #lokasi p {
@@ -160,14 +160,13 @@ aside {
 }
 
 #clock {
-   font-style: lighter;
+  font-style: lighter;
 }
 
 #kontak {
   color: rgb(14, 14, 14);
   background-color: rgba(246, 246, 239, 0.836);
   text-align: center;
-  width: fit-content;
 }
 
 #kontak h2 {
@@ -178,18 +177,21 @@ aside {
   font-size: 1.2rem;
 }
 
-/* #opening {
+#transfer {
   text-align: center;
-  width: fit-content;
-} */
+}
 
 @media screen and (max-width: 600px) {
-
   #content,
   aside {
     width: 100%;
     padding: 0;
   }
+
+  html {
+    background-size: contain;
+  }
+
 }
 
 /* .media-icon {
