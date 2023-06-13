@@ -154,9 +154,12 @@ aside {
   font-size: 1.3rem;
 }
 
-#lokasi #clock {
-  font-size: 1.3rem;
-  font-style: light;
+#lokasi p {
+  font-size: 1.2rem;
+}
+
+#clock {
+   font-style: light;
 }
 
 #kontak {
