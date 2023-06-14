@@ -37,14 +37,11 @@ main {
 }
 
 #nav-display {
-  /* float: right; */
-  /* padding-right: 2rem; */
   padding-top: 2rem;
   padding-bottom: 1rem;
   text-align: center;
   align-items: center;
   font-size: 1rem;
-  /* margin-right: 10px; */
 }
 
 
@@ -56,7 +53,7 @@ p {
 }
 
 h1 {
-  text-shadow: 0 1px 4px rgba(27, 29, 29, 0.573);
+  text-shadow: 0 1px 4px rgba(113, 122, 125, 0.763);
 }
 
 nav a {
@@ -79,7 +76,7 @@ header {
   position: sticky;
   top: 0;
   backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  /* -webkit-backdrop-filter: blur(10px); */
 }
 
 img {
