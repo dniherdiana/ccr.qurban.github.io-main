@@ -180,7 +180,11 @@ aside {
   padding-right: 20px;
 }
 
-@media screen and (max-width: 600px) {
+#hidden {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
 
   #content, aside {
     width: 100%;
@@ -193,6 +197,10 @@ aside {
 
   html {
     background-size: cover;
+  }
+
+  #hidden {
+   display: unset;
   }
 
 }
