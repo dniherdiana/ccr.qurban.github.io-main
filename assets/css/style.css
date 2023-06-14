@@ -29,6 +29,7 @@ body {
   overflow: auto;
   border-bottom: 2px groove rgb(78, 216, 232);
   box-shadow: 0 4px 8px 0 rgba(30, 30, 29, 0.529);
+  width: 100%;
 }
 
 main {
@@ -44,10 +45,12 @@ main {
 
 #nav-display {
   /* float: right; */
-  /* padding-right: 2rem; */
+  padding-right: 2rem;
   padding-top: 1rem;
   text-align: center;
   align-items: center;
+  font-size: 0.9rem;
+  /* margin-right: 10px; */
 }
 
 
