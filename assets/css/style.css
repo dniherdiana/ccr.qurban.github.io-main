@@ -163,10 +163,7 @@ aside {
   color: rgb(14, 14, 14);
   background-color: rgba(246, 246, 239, 0.836);
   text-align: center;
-}
-
-#kontak h2 {
-  font-size: 2rem;
+  /* font-size: 1.4rem; */
 }
 
 #kontak p {
