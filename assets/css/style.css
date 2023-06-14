@@ -2,7 +2,7 @@
 
 html {
   background: url(../img/qurbanBG.webp) no-repeat center center fixed;
- /*  -webkit-background-size: cover;
+  /*  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover; */
   background-size: cover;
@@ -184,23 +184,28 @@ aside {
   display: none;
 }
 
+#note-transfer {
+  font-style: italic;
+  font-size: 1rem;
+}
+
 @media screen and (max-width: 767px) {
 
-  #content, aside {
+  #content,
+  aside {
     width: 100%;
     padding: 0;
   }
 
   aside {
     position: static;
-  } 
+  }
 
   html {
     background-size: cover;
   }
 
   #hidden {
-   display: inline;
+    display: inline;
   }
-
 }
