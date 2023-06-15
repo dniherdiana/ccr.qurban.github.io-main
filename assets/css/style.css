@@ -188,6 +188,14 @@ aside {
   font-size: 1rem;
 }
 
+.panitia-bold-style {
+  font-weight: bold;
+}
+
+p {
+  text-align: center;
+}
+
 @media screen and (max-width: 767px) {
 
   #content,
